@@ -14,6 +14,7 @@ const Tabs = (props)=>{
             <div>
                 {props.tabs.filter(tab=>tab.title===activeTab)[0].content}
             </div>
+            
 
         </div>
     )
