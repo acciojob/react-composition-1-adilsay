@@ -12,7 +12,7 @@ const Tabs = (props)=>{
         <div>
             {props.tabs.map(tab=>(<li onClick={()=> displayContent(tab.titles)}>{tab.titles}</li>))}
             <div>
-                {props.tabs.filter(tab=>tab.titles===activeTab)[0].contents}
+                <p>{props.tabs.filter(tab=>tab.titles===activeTab)[0].contents}</p>
             </div>
             
 
